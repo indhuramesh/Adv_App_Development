@@ -1,0 +1,53 @@
+/* src/components/LandingPage.css */
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  }
+  .landHead{
+    margin-bottom:100px;
+    font-size:3rem;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  
+  .admin-button {
+    background-color: #3498db;
+    color: #fff;
+    cursor:pointer;
+  }
+  .admin-button:hover{
+    background-color: #96cdf1;
+  }
+  
+  .user-button {
+    background-color: #2ecc71;
+    color: #fff;
+    cursor:pointer;
+  }
+  .user-button:hover{
+    background-color:#9cf5c1;
+  }
+  
+  img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
